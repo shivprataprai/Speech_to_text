@@ -1,8 +1,4 @@
 name: tf
-channels:
-  - anaconda
-  - conda-forge
-  - defaults
 dependencies:
   - attrs=19.3.0
   - audioread=2.1.8
@@ -24,8 +20,6 @@ dependencies:
   - gmp=6.1.2
   - gnutls=3.6.5
   - icu=64.2
-  - importlib-metadata=1.6.0
-  - importlib_metadata=1.6.0
   - intel-openmp=2019.4
   - ipykernel=5.2.0
   - ipython=7.13.0
