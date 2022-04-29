@@ -6,8 +6,6 @@ channels:
 dependencies:
   - attrs=19.3.0
   - torch==1.8.1
-  - cpu torchvision==0.9.1
-  - cpu torchaudio===0.8.1
   - audioread=2.1.8
   - backcall=0.1.0
   - blas=1.0
