@@ -4,7 +4,6 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - appnope=0.1.0
   - attrs=19.3.0
   - audioread=2.1.8
   - backcall=0.1.0
