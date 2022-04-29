@@ -3,3 +3,5 @@ scipy>=0.15.1
 pandas>=0.19
 torch
 bokeh
+streamlit
+streamlit-option-menu
