@@ -1,5 +1,5 @@
 numpy>=1.9.2
-torch
+pytorch
 scipy>=0.15.1
 build-essential
 libasound-dev
