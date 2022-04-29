@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - attrs=19.3.0
-  - torch
+  - pytorch
   - audioread=2.1.8
   - backcall=0.1.0
   - blas=1.0
