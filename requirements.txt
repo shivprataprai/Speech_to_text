@@ -8,7 +8,6 @@ pipwin
 PyAudio
 absl-py==0.9.0
 altair==4.1.0
-appnope==0.1.0
 astor==0.8.1
 attrs==19.3.0
 audioread==2.1.8
