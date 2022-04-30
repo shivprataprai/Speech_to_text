@@ -1,5 +1,6 @@
 numpy>=1.9.2
-pytorch
+--find-links https://download.pytorch.org/whl/torch_stable.html
+torch==1.2.0+cpu
 scipy>=0.15.1
 build-essential
 libasound-dev
