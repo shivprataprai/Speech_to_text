@@ -1,7 +1,7 @@
 import time, os
 import logging
 import streamlit as st
-import torch
+#import torch
 import librosa
 import soundfile as sf
 import numpy as np
@@ -52,7 +52,8 @@ def main():
             input_audio, _ = librosa.load(WAVE_OUTPUT_FILE, sr=16000) 
             input_values = tokenizer(input_audio, return_tensors="pt").input_values   
             logits = model(input_values).logits  
-            predicted_ids = torch.argmax(logits, dim=-1) 
+            #predicted_ids = torch.argmax(logits, dim=-1) 
+            predicted_ids = tf.math.argmax(logits.detach().numpy(), axis=-1) 
             transcription = tokenizer.batch_decode(predicted_ids)[0] 
         #with st.spinner("Converting Speech into Text"):
             #chord = cnn.predict(WAVE_OUTPUT_FILE, False)
